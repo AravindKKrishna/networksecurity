@@ -14,3 +14,4 @@ if __name__=='__main__':
         print(dataingestionartifact)
     except Exception as e:
         raise NetworkSecurityException(e,sys)
+    
