@@ -108,4 +108,4 @@ class TrainingPipeline:
         
         except Exception as e:
             raise NetworkSecurityException(e,sys)
-        print("sucessfully cleared storage in ec2")
+        
